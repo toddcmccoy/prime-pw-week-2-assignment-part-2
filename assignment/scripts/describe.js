@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and set the name to be 'Dane'
+// Then we write a conditional to check if the name is set to 'Mary"
+// If and only if the name is set to 'Mary' the console.log will show 'Hi, Mary!'
+// If the name is set to anything other than 'Mary' the console.log will show 'How do you do?'
+// Name is set to 'Dane', which is not 'Mary', so we expect the console.log to show 'How do you do?'
 
 //CODE
 /*
