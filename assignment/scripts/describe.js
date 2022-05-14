@@ -46,10 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First we declare a variable called "secret".
+// Next we declare a variable called "code" and assign it the value 123.
+// Then we state that if and only if "code" equals 123 then variable "secret" will be assigned the value 'super'
+// and the value of variable "code" will be multiplied by 2.
+// If the resulting value of "code" being multiplied by 2 results in a value greater than 250
+// then the variable secret will be assigned the value 'duper'. We then console.log the value of "secret".
+// 123 multiplied by 2 equals 246, therefore we should see 'super' in the console.log.
 
 //CODE
 /*
@@ -71,10 +74,20 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// In this code we have a boolean variable and two number variables. 
+// Our boolean variable is declared to be called "isStudent" and it is assigned the value of true.
+// Our first number variable is declared "age" and is assigned the value 34.
+// Our second number variable is declared "zip" and is assigned the value 55407.
+// We then evaluate that if and only if "isStudent" is assigned the value true 
+// AND "zip" is assigned a value greater than 8000 we will see 'You're a student on the West Coast' in the console.log 
+// If those two conditions are not met then we evaluate that if and only if "isStudent" is assigned the value false 
+// AND "age" is assigned a value less than 30 we will see 'What are your hobbies?' in the console.log
+// Next we evaluate a single variable, if and only if "isStudent" is assigned the value true,
+// we will see 'Welcome to Prime!' in our console.log
+// Finally in none of the above evaluations result in all conditions being met we will see
+// 'How about the weather?' in our console.log
+// Since the variable "isStudent" is assigned the value true we should see 'Welcome to Prime!' in the console.log
+
 
 //CODE
 /*
