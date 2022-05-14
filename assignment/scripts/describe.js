@@ -144,12 +144,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX colorOne is set to red
+// Should be let colorOne = 'blue'
 let colorOne = 'red';
+// FIX colorTwo is set to blue
+// Should be let colorTwo = 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //FIX colorTwo is not defined in this expression
+  // Should be colorTwo = 'purple
 }
 */
 
@@ -159,6 +165,8 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX time should be set as a variable, not a constant
+// Should be let time = 4
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -173,6 +181,14 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+//FIX code is checking the reverse, if minAge is less than or equal to age
+// Should be
+//if(age >= minAge) {
+//  console.log('enter');
+//} else {
+//  console.log('no entry');
+//}
+//
 
 if(minAge <= age) {
   console.log('no entry');
