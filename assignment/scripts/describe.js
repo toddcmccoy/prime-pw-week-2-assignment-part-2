@@ -145,17 +145,17 @@ if (number >= 2) {
 
 /*
 // FIX colorOne is set to red
-// Should be let colorOne = 'blue'
+// Should be let colorOne = 'blue';
 let colorOne = 'red';
 // FIX colorTwo is set to blue
-// Should be let colorTwo = 'red'
+// Should be let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
   //FIX colorTwo is not defined in this expression
-  // Should be colorTwo = 'purple
+  // Should be colorTwo = 'purple';
 }
 */
 
